@@ -1,5 +1,9 @@
 server:
   port: 8088
+  redis:
+    host: 192.168.91.200
+    port: 6379
+    database: 0
 spring:
   application:
     name: reggie_take_out
