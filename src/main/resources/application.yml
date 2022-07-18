@@ -23,3 +23,6 @@ mybatis-plus:
       id-type: ASSIGN_ID
 reggie:
   path: D:\img\
+cache:
+  redis:
+    time-to-live: 1800000 #设置缓存数据过期时间

@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.cache.annotation.EnableCaching;
 
 /**
  * @author frx
@@ -11,6 +12,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
  * @date 2022/4/26  23:18
  */
 @Slf4j
+@EnableCaching
 @SpringBootApplication
 @ServletComponentScan
 public class ReggieApplication {
